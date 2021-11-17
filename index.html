@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="https://cdn.iconscout.com/icon/free/png-256/time-1855956-1574162.png"
+      type="image/png"
+    />
+    <title>Memento Mori</title>
+  </head>
+  <body>
+    <header class="header">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="logo h-5 w-5"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z"
+          clip-rule="evenodd"
+        />
+      </svg>
+      <h1 class="heading">Memento Mori</h1>
+    </header>
+    <section class="input-area">
+      <label for="dob">Enter Date of birth</label>
+      <input type="date" class="dob" id="dob" name="date-of-birth" />
+      <label for="years">Select the number of years:</label>
+      <select class="selected-years" name="selected-year" id="years">
+        <option value="30">30</option>
+        <option value="50">50</option>
+        <option value="80" selected>80</option>
+      </select>
+      <button class="btn">Calculate</button>
+      <button class="btn reset">Reset</button>
+    </section>
+    <main class="display-area">
+      <div class="total-years"></div>
+      <div class="about">
+        <div class="intro">
+          <div>
+            <h2>Memento Mori</h2>
+            <p class="quote">
+              “Let us prepare our minds as if we’d come to the very end of life.
+              Let us postpone nothing. Let us balance life’s books each day. …
+              The one who puts the finishing touches on their life each day is
+              never short of time.” <span class="author">-Seneca</span>
+            </p>
+            <p>
+              Memento mori is an artistic or symbolic trope acting as a reminder
+              of the inevitability of death.
+            </p>
+          </div>
+          <img
+            src="https://373819-1169963-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2016/07/seneca.jpg"
+            alt="seneca portrait"
+          />
+        </div>
+        <div>
+          <h2>How it works?</h2>
+          <p>
+            This App let's you select the Time frame that is the number of years
+            you want to look at then you need add your Date of Birth.
+          </p>
+          <p>
+            The focus of this app is not to make you anxious about the time you
+            have But to let you understand the importance of time and get a
+            better perspective of it.
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <h3 class="credit">
+        🏗️ Made by
+        <a
+          class="social"
+          href="https://twitter.com/HarshSinghAtZ"
+          target="_blank"
+          ><strong>Harsh Singh</strong></a
+        >
+      </h3>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

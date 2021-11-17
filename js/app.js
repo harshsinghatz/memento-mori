@@ -55,6 +55,7 @@ const reset = function () {
   displayBlock.innerHTML = "";
   // about.classList.remove("hidden");
   about.style.display = "flex";
+  dateOfBirth.value = "";
 };
 //Event Handlers
 
